@@ -8,12 +8,12 @@
 
     <div class="box text-center site-intro rm-link-color">
         <button type="button" class="close" data-dismiss="alert" aria-hidden="true">×</button>
-        欢迎交换友链，只接受 PHP、Laravel 相关话题的站点，请见 <a style="text-decoration: underline;" href="https://phphub.org/topics/2453">关于酷站</a>
+        欢迎交换友链，目前只接受“技术博客”类的站点，如需请入群联系管理员！
     </div>
 
     <div class="sites-index">
 
-        @include('sites.partials.sites', ['heading_title' => '<i class="fa fa-weibo text-md"></i> Laravel/PHP 圈内人的微博', 'filterd_sites' => $sites['weibo']])
+{{--        @include('sites.partials.sites', ['heading_title' => '<i class="fa fa-weibo text-md"></i> Laravel/PHP 圈内人的微博', 'filterd_sites' => $sites['weibo']])--}}
 
         @include('sites.partials.sites', ['heading_title' => '<i class="fa fa-globe text-md"></i> 推荐网站', 'filterd_sites' => $sites['site']])
 
