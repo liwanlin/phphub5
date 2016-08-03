@@ -45,13 +45,6 @@
 
 @endif
 
-  <div class="panel panel-default corner-radius">
-    <div class="panel-body text-center" style="padding: 7px; padding-top: 8px;">
-      <a href="http://www.ucloud.cn/site/seo.html?utm_source=zanzhu&utm_campaign=phphub&utm_medium=display&utm_content=shengji&ytag=phphubshenji" target="_blank" rel="nofollow" title="" style="line-height: 66px;">
-        <img src="http://ww1.sinaimg.cn/large/6d86d850jw1f2xfmssojsj20dw03cjs5.jpg" width="100%">
-      </a>
-  </div>
-  </div>
 
   @if (isset($links) && count($links))
     <div class="panel panel-default corner-radius">
@@ -124,17 +117,6 @@
       @include('topics.partials.active_users')
     </div>
   </div>
-
-<div class="panel panel-default corner-radius">
-  <div class="panel-heading text-center">
-    <h3 class="panel-title">{{ lang('App Download') }}</h3>
-  </div>
-  <div class="panel-body text-center" style="padding: 7px;">
-    <a href="https://phphub.org/topics/1531" target="_blank" rel="nofollow" title="">
-      <img src="https://dn-phphub.qbox.me/uploads/images/201512/08/1/cziZFHqkm8.png" style="width:240px;">
-    </a>
-  </div>
-</div>
 
 @endif
 

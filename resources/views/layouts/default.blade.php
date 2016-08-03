@@ -22,16 +22,16 @@ ______                            _              _                              
 
 		<title>
 			@section('title')
-PHPHub  - PHP & Laravel的中文社区
+				重庆-零二三IT圈
 			@show
 		</title>
 
 
 		  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" />
 
-		<meta name="keywords" content="PHP,Laravel,PHP论坛,Laravel论坛,PHP社区,Laravel社区" />
+		<meta name="keywords" content="重庆互联网,重庆PHP,重庆互联网招聘,PHP论坛,IT社区" />
 		<meta name="author" content="The PHP China Community." />
-		<meta name="description" content="@section('description') PHPHub 是 PHP 和 Laravel 的中文社区，致力于推动 Laravel，php-fig 等 PHP 新技术，新理念在中国的发展，是国内最靠谱的 PHP 论坛。 @show" />
+		<meta name="description" content="@section('description') 零二三it圈是重庆的一个专业的互联网论坛，集合专业技术讨论，招聘，尤其在PHP方面。 @show" />
         <meta name="_token" content="{{ csrf_token() }}">
 
         <link rel="stylesheet" href="{{ elixir('assets/css/styles.css') }}">
